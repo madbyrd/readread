@@ -1,0 +1,121 @@
+body{
+    margin:0;
+    background-color: white;
+}
+
+
+h1{
+    color: #FF6200;
+    font-family: Bio Sans;
+    font-style: ExtraBold;
+    font-size: 4.5em;
+    text-align: center;
+    margin-top: 180px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #0031FF;
+   
+}
+
+h2{
+    font-family: Bio Sans;
+    font-style: bold;
+    font-size: 2em;
+    text-align: center;
+    color: #0031FF;
+    margin-left: 22%;
+    margin-right: 22%;
+    
+}
+
+h3{
+    font-family: Bio Sans;
+    font-style: SemiBold Italic;
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+p{
+    margin: auto;
+    text-align: left;
+    font-family: helvetica neue;
+    font-size: .8em;
+    color: #707070;
+    width: 45%;
+    line-height:1.4em;
+}
+
+i{
+    margin: auto;
+}
+
+.stanza{
+    font-family: helvetica neue;
+    font-size: 1em;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+a{
+    text-decoration: underline;
+    color:#FF6200;
+    font-family: bio sans;
+    font-style: semibold;
+    display: block;
+    line-height: 3em;
+    margin-left: 23%;
+    margin-right: 23%;
+    max-width: 50vw;
+    font-size: 1.3em;
+}
+
+li{
+    display: block;
+    max-width: 50vw;
+    text-align: center;
+    font-family: helvetica neue;
+    font-style: semibold;
+    color: #707070;
+    margin-left: 22%;
+    margin-right: 22%;
+}
+
+ul{
+    margin:auto;
+    margin-bottom: 10%;
+}
+
+img{
+    max-width: 50vw;
+    margin: auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.center{
+    text-align: center;
+    margin: auto;
+}
+
+/* ----------- SMART PHONES ----------- */
+ 
+ 
+@media only screen and (max-width: 800px) {
+
+    body{
+        background-color: white;
+    }
+
+}
+
+/* ----------- TABLETS ----------- */
+ 
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+    body{
+        background-color: white;
+    }
+}
